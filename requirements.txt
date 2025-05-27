@@ -1,0 +1,6 @@
+scikit-learn
+ray
+pandas
+ray
+mlflow
+numpy
