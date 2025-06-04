@@ -18,7 +18,7 @@ def load_data():
     X.columns = column_names
 
     for col in X.select_dtypes(include='object').columns:
-        X[col] = LabelEncoder().fit_transform(X[col])
+        X.loc[:, col] = LabelEncoder().fit_transform(X[col])
 
     y = y.replace({1: 1, 2: 0})
 
