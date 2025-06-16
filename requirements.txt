@@ -4,3 +4,4 @@ pandas
 ray
 mlflow
 numpy
+ucimlrepo
